@@ -1,20 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "e-commerce-ui-completed/client/package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/e-commerce-ui-completed/client/$1"
-    }
-  ],
-  "functions": {
-    "e-commerce-ui-completed/client/src/app/**/*.tsx": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "buildCommand": "cd e-commerce-ui-completed/client && npm run build",
+  "outputDirectory": "e-commerce-ui-completed/client/.next",
+  "installCommand": "cd e-commerce-ui-completed/client && npm install",
+  "framework": "nextjs"
 }
