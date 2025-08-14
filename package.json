@@ -1,0 +1,19 @@
+{
+  "name": "islemshop-monorepo",
+  "version": "1.0.0",
+  "description": "IslemShop E-commerce Platform - Monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "cd e-commerce-ui-completed/client && npm run dev",
+    "build": "cd e-commerce-ui-completed/client && npm run build",
+    "start": "cd e-commerce-ui-completed/client && npm run start",
+    "lint": "cd e-commerce-ui-completed/client && npm run lint"
+  },
+  "workspaces": [
+    "e-commerce-ui-completed/client",
+    "e-commerce-ui-completed/admin"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
