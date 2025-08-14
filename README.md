@@ -2,6 +2,8 @@
 
 A full-stack e-commerce solution built with Next.js 15, featuring a customer-facing storefront and an admin dashboard for business management.
 
+<!-- Deployment ready with fixed dependencies -->
+
 ![IslemShop](https://img.shields.io/badge/IslemShop-E--commerce-007acc?style=for-the-badge&logo=next.js)
 ![Next.js](https://img.shields.io/badge/Next.js-15.4.5-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
