@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd e-commerce-ui-completed/client && npm run build",
-  "outputDirectory": "e-commerce-ui-completed/client/.next",
-  "installCommand": "cd e-commerce-ui-completed/client && npm install",
+  "rootDirectory": "e-commerce-ui-completed/client",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
   "framework": "nextjs"
 }
