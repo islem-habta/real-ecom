@@ -191,17 +191,8 @@ Both applications are fully responsive and optimized for:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
 
-This project is licensed under the MIT License.
 
-## 🆘 Support
 
-For support and questions:
-- Create an issue in the repository
-- Check the documentation
-- Review the code comments
-
----
 
 **Built with ❤️ using Next.js, TypeScript, and modern web technologies**
